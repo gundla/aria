@@ -1,0 +1,21 @@
+doctype
+html
+	head
+		// Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+		
+		title #{pageTitle}
+
+		//	mobile view port
+		meta(name="viewport" content="width=device-width,initial-scale=1")
+
+		link(rel='shortcut icon', href='/static/favicon.ico')
+		link(rel='stylesheet', href='/static/src/styles/css/main.css')
+
+		block stylesheets
+
+		//global variables
+		script(type="text/javascript")
+
+	body
+		block content

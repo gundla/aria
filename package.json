@@ -1,0 +1,22 @@
+{
+  "name": "temple-app",
+  "description": "temple app",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "3.x",
+    "jade": ">= 0.0.1",
+    "winston": "0.7.2",
+    "underscore": "1.5.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt-contrib-compass": "~0.7.2"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
